@@ -14,6 +14,7 @@ A dictionary web app created using React, brought to life using animations from 
 # Technologies Used
 - ReactJS
 - Axios
+- MUI/Material (Material UI)
 - Framer Motion
 - REST API
 - CSS
