@@ -1,0 +1,9 @@
+.Header {
+    width: 100%;
+}
+
+.Header h1 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: -5px;
+}

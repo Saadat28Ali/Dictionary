@@ -1,0 +1,60 @@
+.SearchBar {
+    /* background-color: pink; */
+
+    height: 150px;
+
+    flex-direction: column;
+        justify-content: flex-start;
+}
+
+.SearchBar form {
+    display: flex;
+}
+
+.SearchBar form input[type="text"] {
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    height: 60px;
+    width: 300px;
+
+    padding: 0px 20px 0px 20px;
+
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.SearchBar form input[type="text"]:focus {
+    outline: 0;
+}
+
+/* .SearchBar form input[type="text"]:hover {
+    scale: 1.05;
+} */
+
+.SearchBar form button {
+    background: linear-gradient(to bottom right, rgb(32, 129, 255), rgb(25, 102, 203));
+
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    height: 60px;
+
+    padding: 0px 20px 0px 20px;
+
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+/* .SearchBar form button:hover {
+    scale: 1.05;
+} */
+
+.SearchBar .FetchingStatus {
+    min-width: 1px;
+    min-height: 40px;
+}

@@ -1,0 +1,42 @@
+.SearchResults {
+    box-shadow: 0px 0px 30px 1px rgba(0, 136, 255, 0.1);
+
+    min-height: 100vh;
+    min-width: 50vw;
+}
+
+.SearchResults .NoResultHeader {
+    color: #ffffff4d;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+    overflow: hidden;
+}
+
+.SearchResults .ResultHeader {
+    border-bottom: 2px solid rgb(255, 255, 255, 0.2);
+
+    display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+    width: 100%;
+
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: -3px;
+
+    overflow-y: scroll;
+
+}
+
+.SearchResults p {
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+    padding: 30px 30px 30px 30px;
+
+    letter-spacing: 2px;
+}

@@ -1,0 +1,40 @@
+.App {
+  background-color: rgb(30, 30, 30);
+
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  color: white;
+}
+
+.ContentRow {
+
+  align-items: flex-start;
+
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.Left {
+  background: linear-gradient(to bottom right, rgb(255, 255, 255, 0.1), rgb(100, 100, 100, 0.1));
+
+  flex-direction: column;
+
+  min-width: 50vw;
+  /* min-height: 100vh; */
+  min-height: 100vh;
+
+  position: sticky;
+  left: 0;
+  top:0;
+  z-index: 2;
+}
+
+.Right {
+  min-width: 50vw;
+}
