@@ -1,5 +1,6 @@
 import { useContext, Fragment } from "react";
 import { motion } from "framer-motion";
+import Typography from "@mui/material/Typography";
 
 import MeaningContext from "../contexts/meaningContext";
 
@@ -28,12 +29,16 @@ export default function SearchResults() {
                 }
               }}
             >
-              <h2 className="ResultHeader"> {meaning.getter.word} </h2>
+              {/* <h2 className="ResultHeader"> {meaning.getter.word} </h2> */}
+              <Typography variant="h1" sx={{textTransform: "capitalize", marginTop: "50px"}} fontSize={100} gutterBottom> {meaning.getter.word} </Typography>
             </motion.div>
           )
-          : (<h2 className="NoResultHeader"> No word searched... </h2>)
+          : (
+          // <h2 className="NoResultHeader"> No word searched... </h2>
+          <Typography variant="body2" color="neutral" sx={{opacity: 0.5}}> No word searched... </Typography>
+        )
         }
-        <p>
+        {/* <p>
           {
             (meaning.getter.definition) 
             ? meaning.getter.definition.split("\n").map((section: string, index: number) => {
@@ -41,7 +46,16 @@ export default function SearchResults() {
             })
             : ""
           } 
-        </p>
+        </p> */}
+        <Typography variant="body1">
+          {
+            (meaning.getter.definition) 
+            ? meaning.getter.definition.split("\n").map((section: string, index: number) => {
+              return <Fragment key={index}>{section}<br></br></Fragment>;              
+            })
+            : ""
+          } 
+        </Typography>
       </div>
     );
 }
