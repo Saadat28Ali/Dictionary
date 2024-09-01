@@ -2,6 +2,8 @@
 
 ![Static Badge](https://img.shields.io/badge/React-js-blue)
 ![Static Badge](https://img.shields.io/badge/Node-js-lime)
+![Static Badge](https://img.shields.io/badge/TypeScript-blue)
+![Static Badge](https://img.shields.io/badge/CSS-brown)
 ![Static Badge](https://img.shields.io/badge/Framer-Motion-orange)
 ![Static Badge](https://img.shields.io/badge/MUI-Material-blue)
 ![Static Badge](https://img.shields.io/badge/REST-API-purple)
@@ -18,3 +20,4 @@ A dictionary web app created using React, brought to life using animations from 
 - Framer Motion
 - REST API
 - CSS
+- TypeScript
