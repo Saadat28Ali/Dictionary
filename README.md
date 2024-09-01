@@ -11,13 +11,19 @@
 
 
 # Dictionary
+<i>
 A dictionary web app created using React and TypeScript, brought to life using components from @mui/material, animations from Framer Motion, REST API using RapidAPI and Axios.
+</i>
 
 # Technologies Used
-- ReactJS
-- Axios
-- MUI/Material (Material UI)
-- Framer Motion
-- REST API
-- CSS
-- TypeScript
+<i>
+  <ul>
+    <li>ReactJS</li>
+    <li>Axios</li>
+    <li>TypeScript</li>
+    <li>CSS</li>
+    <li>REST API</li>
+    <li>MUI/Material (Material UI)</li>
+    <li>Framer Motion</li>
+  </ul>
+</i>
