@@ -11,7 +11,7 @@
 
 
 # Dictionary
-A dictionary web app created using React, brought to life using animations from Framer Motion, REST API using RapidAPI and Axios.
+A dictionary web app created using React and TypeScript, brought to life using components from @mui/material, animations from Framer Motion, REST API using RapidAPI and Axios.
 
 # Technologies Used
 - ReactJS
